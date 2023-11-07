@@ -4,6 +4,7 @@
     box-sizing: content-box;
 }
 
+
 body{
     width: 100%;
 
@@ -124,6 +125,8 @@ nav{
     background-position: top right ;
 }
 
+/* This where the styling for section Three start*/
+
 .sectionThree{
     background-color: rgba(240, 241, 241, 0.61);
     display: flex;
@@ -181,4 +184,11 @@ nav{
 
 :where(.sectionThreeImage){
     margin-top: 10vh;
+}
+
+/* This where the styling for section Four start*/
+
+.sectionFour{
+    background-color: white;
+    height: 110vh;
 }
