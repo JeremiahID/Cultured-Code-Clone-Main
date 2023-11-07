@@ -1,0 +1,184 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+body{
+    width: 100%;
+
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9dcdf7e;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.logo{
+    width: 10vw;
+    height: 7vh;
+    background-image: url("/Public/images/LogoNav.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+
+
+.logo:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("/Public/images/LogoNavHover.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+ }
+ 
+
+
+:where(.links) :is(a){
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #807c7c;
+    border: 0px;
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+
+:where(.links) :is(a:hover){
+    background-color: #e4dfdf;
+   
+}
+
+
+.sectionOne{
+    height: 90vh;
+    background-color: #d9dcdf7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+:where(.hero) :is(img){
+    width: 20vw;
+}
+
+:where(.heroText) :is(h2){
+    font-family: calibri;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #8b8888;
+    padding: 1rem;
+}
+
+.heroLink{
+    margin: 1.5rem;
+}
+
+.heroLink a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 25vw;
+}
+
+.heroLink a img{
+    width: 3vw;
+    height: 5vh;
+}
+
+.heroLink a h1{
+    color: rgba(6, 6, 49, 0.596);
+}
+
+
+/* This where the styling for section two start*/
+
+.sectionTwo{
+    height: 80vh;
+    background-color: rgba(240, 241, 241, 0.87);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.imagePresentation{
+    height: 80vh;
+    width: 100%;
+    background-image: url("/Public/images/layerOne.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top right ;
+}
+
+.sectionThree{
+    background-color: rgba(240, 241, 241, 0.61);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+:where(.sectionThreeTextHead) {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:where(.sectionThreeTextHead) :is(h1) {
+    padding: 1rem;
+    font-size: 2.3rem;
+    font-family: calibri;
+    letter-spacing: 0.3rem;
+    
+}
+
+:where(.sectionThreeText) :is(h2){
+    font-family: calibri;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #615e5e;
+    padding: 1rem;
+}
+
+:where(.sectionThreeText) :is(a){
+   color: rgb(39, 75, 122);
+   text-decoration: none;
+   font-family:monospace;
+   font-weight: 400;
+   font-size: 1.5rem;
+   font-weight: 700;
+   padding-left: 12vw;
+   
+}
+
+
+:where(.sectionThreeImage){
+    background-image: url("/Public/images/whatsnew-collage-io60.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    width: 80vw;
+}
+
+:where(.sectionThreeImage){
+    margin-top: 10vh;
+}
