@@ -241,5 +241,14 @@ nav{
     grid-column:span 1;
     border-radius: 10px;
     background-color: #b8b8b846;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contentOne, .contentTwo, .contentThree{
+    grid-column: span 1;
+    grid-row: span 1;
+    border: 1px solid orangered;
 }
 
