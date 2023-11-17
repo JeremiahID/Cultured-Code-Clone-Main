@@ -249,6 +249,44 @@ nav{
 .contentOne, .contentTwo, .contentThree{
     grid-column: span 1;
     grid-row: span 1;
-    border: 1px solid orangered;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
+
+:where(.contentOne) :is(img){
+    width: 15vh;
+}
+
+:where(.contentOne) :is(h2){
+    color: rgba(73, 67, 67, 0.685);
+    font-family: Agency FB;
+    letter-spacing: 3px;
+}
+
+:where(.contentTwo) :is(p){
+    color: rgba(73, 67, 67, 0.685);
+    font-family: Agency FB;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+:where(.contentTwo) :is(a){
+    color: rgba(73, 67, 67, 0.685);
+    font-family: Agency FB;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+:where(.contentThree) :is(img){
+    width: 25vh;
+    
+}
+
+:where(.contentThree) :is(img:hover){
+    cursor: pointer;
+}
+
 
