@@ -189,7 +189,7 @@ nav{
 /* This where the styling for section Four start*/
 
 .sectionFour{
-    background-color: white;
+    background-color: rgba(181, 206, 221, 0.233);
     height: 110vh;
 }
 
@@ -289,4 +289,47 @@ nav{
     cursor: pointer;
 }
 
+/* This where the styling for section Five start*/
 
+.sectionFive{
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size img{
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.507);
+}
+.size img:hover{
+    transition: all 0.6s ease-in-out 0s;
+    box-shadow: 1px 1px 10px 4px rgba(48, 46, 46, 0.637);
+    cursor: pointer;
+}
+
+
+.text{
+    font-family: calibri;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #615e5e;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mainText{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    font-family: calibri;
+    color: #2b2929;
+}
