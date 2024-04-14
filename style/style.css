@@ -41,8 +41,6 @@ nav{
     background-repeat: no-repeat;
     background-size:contain;
  }
- 
-
 
 :where(.links) :is(a){
     text-decoration: none;
